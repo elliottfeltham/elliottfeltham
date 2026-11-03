@@ -1,59 +1,55 @@
-# Hi, I'm Elliott 👋
+# Elliott Feltham
 
-I'm a software and AI engineer based in Portsmouth, currently completing an
-MSc in Computer Science at the University of Sussex!
+**Graduate Software Engineer · MSc Computer Science (Distinction)**
 
-I build full-stack applications and AI-powered systems using Python,
-TypeScript, React, FastAPI and PostgreSQL.
+I'm a Computer Science MSc graduate from the University of Sussex, based in Portsmouth. I build full-stack applications with Python, TypeScript, React, FastAPI and PostgreSQL, with a particular interest in backend engineering and practical AI integration.
 
-## Featured projects
+I'm seeking a graduate or junior software engineering role where I can contribute to useful software, collaborate with other developers and learn from an experienced team. I'm open to hybrid opportunities in London and the South of England, as well as UK remote roles.
 
-### Adaptive Graph-Based Document Retrieval
+[LinkedIn](https://www.linkedin.com/in/elliottlfeltham/) · [Email](mailto:elliottfeltham98@gmail.com)
 
-An experimental retrieval system combining FAISS vector search, sentence
-embeddings, spreading activation and an evolving document graph.
+## Selected projects
 
-- Evaluated across 500 multi-hop questions
-- Indexed approximately 4,900 HotpotQA documents
-- Built with Python, Sentence Transformers and FAISS
+### [Arcadaeum](https://github.com/esrsproject/arcadaeum-app)
+**University team project · React, TypeScript, FastAPI, PostgreSQL**
 
-### Arcadaeum
+A social application for discovering games, logging activity, writing reviews and organising collections.
 
-A production-deployed social gaming platform for discovering games, managing
-libraries, publishing reviews and connecting with other players.
+- Implemented authentication with bcrypt and expiring JWTs, and developed most of the FastAPI REST API.
+- Built frontend pages and review and collection features across React, the API and PostgreSQL.
+- Collaborated through Trello, feature branches and pull requests, using Docker and GitHub Actions checks for testing, linting and builds.
 
-- React and TypeScript frontend with 15+ routed views
-- FastAPI backend with 50+ REST endpoints
-- PostgreSQL, Docker, GitHub Actions and 134 passing backend tests
+### Adaptive Knowledge Graph Swarm for Document Retrieval
+**MSc dissertation · Python, Sentence-BERT, FAISS, FastAPI, React**
 
-[Arcadaeum](https://www.arcadaeum.com/signin)
+An experimental document-retrieval system combining vector search with graph-based activation.
 
-### AI-Powered PDF Study Card Generator
+- Implemented retrieval across 4,924 documents, with adaptive graph updates persisted separately from read-only searches.
+- Built a FastAPI interface and an interactive React 3D graph explorer.
+- Evaluated retrieval through reproducible experiments: across three seeds and 300 held-out queries per seed, tuned initial-graph retrieval achieved mean Recall@5 of 0.7483, compared with 0.7322 for FAISS.
 
-A full-stack application that transforms lecture PDFs into theory questions,
-coding exercises and downloadable Jupyter Notebooks.
+*Repository currently private.*
 
-- React, TypeScript, FastAPI and Python
-- OpenRouter LLM integration
-- Structured question generation and notebook export
+### PDF Question Cards
+**Independent project · Python, FastAPI, React, TypeScript, OpenRouter**
 
-## Technologies
+A study tool built to share with classmates, turning lecture PDFs into questions, reference solutions and editable Jupyter notebooks.
 
-**Languages:** Python, TypeScript, JavaScript, SQL  
-**Frontend:** React, Next.js, Vite  
-**Backend:** FastAPI, Node.js, REST APIs  
-**AI:** Sentence Transformers, FAISS, semantic search, LLM integration  
-**Data:** PostgreSQL, SQLite, pandas, NumPy  
-**Tools:** Git, Docker, GitHub Actions, Pytest, Vitest
+- Extracted PDF text with PyMuPDF and integrated OpenRouter for structured question generation.
+- Added handling for provider errors and malformed JSON, alongside an input-length limit.
+- Built answer cards with revealable solutions and notebook export with Markdown prompts and code cells.
 
-## Currently working on
+*Repository currently private.*
 
-- Completing my MSc dissertation in adaptive document retrieval
-- Building reliable full-stack and applied-AI applications
-- Looking for graduate software engineering and AI engineering opportunities
+## Technical skills
 
-## Contact
+- **Languages:** Python, TypeScript, JavaScript, SQL, HTML and CSS
+- **Web and data:** React, Next.js, FastAPI, PostgreSQL, REST APIs, Node.js and Express
+- **AI integration and retrieval:** OpenRouter, Sentence-BERT, FAISS, embeddings and graph-based retrieval
+- **Development tools:** Git, GitHub, Docker, pytest, Vitest and GitHub Actions
 
-- [GitHub](https://github.com/elliottfeltham)
-- [Email](mailto:efeltham98@hotmail.co.uk)
-- [LinkedIn](https://www.linkedin.com/in/elliottlfeltham/)
+## Background
+
+I completed my **MSc Computer Science (Conversion) with Distinction at the University of Sussex in September 2026**, following a **BA (Hons) Popular Music Production at Solent University (2:1, 2022)**.
+
+Alongside my technical projects, I bring experience managing freelance client work, communicating with customers and balancing part-time work with study.
